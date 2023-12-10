@@ -18,6 +18,7 @@ import { LoginComponent } from './components/login/login.component';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ErrorComponent } from './error/error.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { LoginTemplateComponent } from './login-template/login-template.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     ProductsComponent,
     LoginComponent,
     ErrorComponent,
-    NavBarComponent
+    NavBarComponent,
+    LoginTemplateComponent
   ],
   imports: [
     BrowserModule,
